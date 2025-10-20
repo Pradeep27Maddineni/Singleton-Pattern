@@ -1,0 +1,13 @@
+While developing software applications, sometimes we need to ensure that a class has only one instance and that instance is easily accessible from anywhere in our application.
+This is where the Singleton Design Pattern roles comes to the rescue.
+
+Step 1: Private Constructor
+The first step in creating a Singleton is to make the constructor of the class private. This prevents other classes from directly creating instances of the Singleton class.
+
+Step 2: Static Instance
+Next,
+we create a static method that provides access to the single instance of the class.
+If an instance doesn’t exist, it creates one; otherwise, it returns the existing instance.
+
+Step 3: Using the Singleton
+Now, you can use the Singleton throughout your application..
